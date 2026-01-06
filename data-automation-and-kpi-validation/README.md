@@ -1,11 +1,19 @@
 # Data Automation and KPI Validation
 
+## Disclaimer
+This project reflects the type of data automation and KPI validation workflows I work on in my current role as an Associate Solutions Engineer (Data Analyst) at Aligned Automation Ltd.
+
+The implementation in this repository is a recreated, generalized version built solely for demonstration and learning purposes. No proprietary data, internal systems, client information, or confidential business logic from Aligned Automation Ltd. has been used.
+
+All datasets used in this project are either synthetically generated or sourced from publicly available online resources. The project focuses only on showcasing the technical approach, data processing logic, and system design patterns used in real-world scenarios while fully maintaining organizational data privacy and confidentiality.
+
+---
+
 ## Project Overview
 This project represents a real-world data automation and KPI validation workflow aligned with my current role as a Associate Solutions Engineer (Data Analyst) at Aligned Automation Ltd.
 
 The focus of this project is on automating manual data processes, improving data accuracy, and supporting forecasting datasets for business reporting in a production-style environment.
 
----
 
 ## Business Problem
 Manual data processing and KPI validation created multiple operational challenges:
