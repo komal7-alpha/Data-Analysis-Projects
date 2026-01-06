@@ -1,7 +1,5 @@
 # Data Automation and KPI Validation
 
-# Data Automation and KPI Validation
-
 ## Project Overview
 This project represents a real-world data automation and KPI validation workflow aligned with my current role as a Data Analyst.
 
