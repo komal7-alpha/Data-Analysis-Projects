@@ -56,7 +56,6 @@ This phase focuses on understanding data, working with structured datasets, and 
 7. Mini Excel project – Sales report dashboard  
 
 ---
-
 ### Week 2 (Days 8–14): SQL Foundations
 
 1. SQL basics: SELECT, FROM, WHERE  
@@ -90,6 +89,16 @@ This phase focuses on understanding data, working with structured datasets, and 
 5. Power BI setup and interface  
 6. Building Power BI reports  
 7. Mini Power BI project – Sales or HR dashboard  
+
+---
+
+**Outcome after Month 1**
+
+By the end of Month 1, I will be able to:
+- Clean and analyze structured datasets
+- Write SQL queries to extract insights
+- Perform analysis using Python and Pandas
+- Create basic dashboards and visual reports
 
 ---
 
@@ -150,4 +159,8 @@ By the end of this roadmap, the learner will have:
 - Hands-on project experience
 - A structured GitHub portfolio
 - Job readiness for Data Analyst roles
+- Apply statistics to real business problems
+- Build interactive dashboards using Power BI
+- Present insights clearly through data storytelling
+- Maintain a job-ready data analytics portfolio
 
