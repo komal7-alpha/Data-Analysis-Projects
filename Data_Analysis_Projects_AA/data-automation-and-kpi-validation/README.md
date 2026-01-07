@@ -10,7 +10,7 @@ All datasets used in this project are either synthetically generated or sourced 
 ---
 
 ## Project Overview
-This project represents a real-world data automation and KPI validation workflow aligned with my current role as a Associate Solutions Engineer (Data Analyst) at Aligned Automation Ltd.
+This project represents a real-world data automation and KPI validation workflow aligned with my current role as a Associate Solutions Engineer-Data Analyst at Aligned Automation Ltd.
 
 The focus of this project is on automating manual data processes, improving data accuracy, and supporting forecasting datasets for business reporting in a production-style environment.
 
