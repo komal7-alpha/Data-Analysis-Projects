@@ -22,7 +22,21 @@ This is a complete **2-month learning plan** to become a skilled Data Analyst, c
 The focus is on practical learning, analytical thinking, and hands-on project work.
 
 ---
+## Roadmap Navigation
 
+- [Month 1 – Foundations (Days 1–30)](#month-1--foundations-days-130)
+  - [Week 1: Excel for Data Analysis](#week-1-days-17-excel-for-data-analysis)
+  - [Week 2: SQL Foundations](#week-2-days-814-sql-foundations)
+  - [Week 3: Python for Data Analysis](#week-3-days-1521-python-for-data-analysis)
+  - [Week 4: Data Visualization](#week-4-days-2230-data-visualization)
+
+- [Month 2 – Advanced Concepts & Projects (Days 31–60)](#month-2--advanced-concepts--projects-days-3160)
+  - [Week 5: Statistics & Analytics](#week-5-days-3137-statistics--analytics)
+  - [Week 6: Advanced SQL & Python](#week-6-days-3844-advanced-sql--python)
+  - [Week 7: Power BI & Dashboards](#week-7-days-4551-power-bi--dashboards)
+  - [Week 8: Portfolio & Final Project](#week-8-days-5260-portfolio--final-project)
+
+---
 ## Month 1 – Foundations (Days 1–30)
 
 **Goal:** Build a strong base in data handling, querying, and analysis fundamentals.
