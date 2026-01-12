@@ -297,18 +297,3 @@ This is the same setup used in real enterprise projects.
 
 ```
 
----
-
-## Final confirmation (clear words)
-
-- Yes, **sab kuch include kiya**
-- Yes, **paths, links, jars, versions sab explain hai**
-- Yes, **GitHub-ready hai**
-- Yes, **tum bilkul sahi jagah pe push kar rahi ho**
-
-Next step jab bolo:
-- “Setup README commit kar diya”
-- ya “Data synthesis code run ho gaya”
-
-Main team member mode me hi hoon.
-```
