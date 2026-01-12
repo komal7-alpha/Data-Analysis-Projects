@@ -295,5 +295,4 @@ If you follow this README exactly:
 
 This is the same setup used in real enterprise projects.
 
-```
 
