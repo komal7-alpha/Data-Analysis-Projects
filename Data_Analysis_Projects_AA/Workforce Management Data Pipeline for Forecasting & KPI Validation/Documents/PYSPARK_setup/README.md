@@ -288,11 +288,13 @@ Reason:
 ### Configure PySpark to use Virtual Environment (Windows)
 
 After creating and activating the virtual environment, run the following commands:
-
+   
 ```powershell
 setx PYSPARK_PYTHON "%CD%\.venv\Scripts\python.exe"
 setx PYSPARK_DRIVER_PYTHON "%CD%\.venv\Scripts\python.exe"
 Restart PowerShell after running these commands.
+```
+---
 
 ## Final Statement
 
@@ -303,3 +305,4 @@ If you follow this README exactly:
 * Future Excel, SQL, and cloud integrations will work smoothly
 
 This is the same setup used in real enterprise projects.
+
