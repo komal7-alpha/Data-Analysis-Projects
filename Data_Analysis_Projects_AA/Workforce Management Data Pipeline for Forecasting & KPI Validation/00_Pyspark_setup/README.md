@@ -74,7 +74,7 @@ java -version
 ## Step 3: Download Apache Spark (Manual Install)
 
 Go to:
-[https://spark.apache.org/downloads/](https://spark.apache.org/downloads/)
+[https://spark.apache.org/downloads/](https://spark.apache.org/downloads/)](https://spark.apache.org/downloads.html)
 
 Select:
 
