@@ -88,7 +88,7 @@ Download the `.tgz` file.
 ## Step 4: Extract Spark
 
 Extract Spark to:
-
+Create folder named spark on C:\
 ```
 C:\spark\
 ```
@@ -168,7 +168,7 @@ C:\hadoop
 ### Update PATH Variable
 
 Add these paths:
-
+Under user variable click path -> click Edit -> New -> paste these paths given below-> click OK
 ```
 %JAVA_HOME%\bin
 %SPARK_HOME%\bin
