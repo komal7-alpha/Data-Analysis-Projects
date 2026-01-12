@@ -2,7 +2,6 @@
 # PySpark Setup Guide (Windows)
 
 This README explains how to properly set up PySpark on a Windows machine.
-It is written in simple Indian English and is suitable for beginners as well as professionals.
 
 This setup is mandatory to run any PySpark code without errors.
 
