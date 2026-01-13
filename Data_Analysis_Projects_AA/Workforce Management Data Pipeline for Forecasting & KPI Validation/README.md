@@ -49,7 +49,7 @@ In real enterprise WFM environments, the following challenges are very common:
 
 ### Problem Statement
 
-> How can raw, messy Workforce Management operational data be converted into a single, standardized, SQL-based dataset that supports forecasting, KPI validation, and automation — without relying on manual Excel processes?
+> How can raw, messy Workforce Management operational data be converted into a single, standardized, SQL-based dataset that supports forecasting, KPI validation, and automation — without relying on manual Excel processes
 
 ---
 
