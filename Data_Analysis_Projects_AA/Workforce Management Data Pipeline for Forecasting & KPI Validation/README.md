@@ -61,7 +61,7 @@ This project builds a **forecasting-ready, enterprise-grade data pipeline**.
 
 ### Final Goal
 
-Produce a **single master WFM dataset in SQL Server** that can later be used for:
+Produce a **single master WFM dataset and push it to SQL Server using pyspark** that can later be used for:
 
 - Demand forecasting
 - SLA and KPI validation
@@ -114,10 +114,9 @@ Purpose:
 
 Holiday data is later merged using:
 
+```
 Date + Country
-
-yaml
-Copy code
+```
 
 Holiday data helps explain:
 - Demand drops or spikes
@@ -146,19 +145,19 @@ This logic is applied later using:
 
 Raw queue names such as:
 
-India Core Email
-India Email Core
-India Core Email DSP
-
-sql
-Copy code
+```
+IN_CORE_EMAIL_T2
+IN_CORE_CHAT_T1
+US_RETAIL_VOICE_T2
+UK_CORE_EMAIL_T1
+AU_RETAIL_VOICE_T3
+DE_CORE_CHAT_T2
+```
 
 Are standardized into:
 
 Matched_Queue = Core Email
 
-yaml
-Copy code
 
 This ensures:
 - Consistent forecasting
@@ -185,8 +184,8 @@ Holiday indicators are added later using:
 
 Date + Country
 
-yaml
-Copy code
+
+
 
 Resulting columns include:
 - Is_Holiday
@@ -201,21 +200,23 @@ This is the **only dataset created at the initial stage** of the project.
 
 ### Base Table: `wfm_forecasting_base`
 
-| #  | Column Name            | Meaning                      |
-| -- | ---------------------- | ---------------------------- |
-| 1  | Date                   | Activity / demand date       |
-| 2  | Weekday                | Day of week                  |
-| 3  | Week_Number             | ISO week number              |
-| 4  | Month                  | Month name or number         |
-| 5  | Country                | Country / region             |
-| 6  | Region                 | AMER / EMEA / APJ            |
-| 7  | Queue_Name              | Raw queue label              |
-| 8  | Channel                | Voice / Chat / Email         |
-| 9  | All_Units_Filter        | Business grouping            |
-| 10 | Queue_Units_Filter      | Channel grouping             |
-| 11 | ASU_Tier_Filter         | Tier1 / Tier2 / Tier3        |
-| 12 | Demand                 | Primary workload metric      |
-| 13 | Contact_Count          | Secondary volume metric      |
+| #  | Column Name        | Meaning (CLEAR & WFM-CORRECT)      |
+| -- | ------------------ | ---------------------------------- |
+| 1  | Date               | Activity / demand date             |
+| 2  | Weekday            | Day of week                        |
+| 3  | Week_Number        | ISO week number                    |
+| 4  | Month              | Month name                         |
+| 5  | Country            | Operating country                  |
+| 6  | Region             | AMER / EMEA / APJ                  |
+| 7  | Queue_Name         | Standardized queue identifier      |
+| 8  | Channel            | Voice / Chat / Email               |
+| 9  | All_Units_Filter   | Business line grouping             |
+| 10 | Queue_Units_Filter | Channel-level grouping             |
+| 11 | ASU_Tier_Filter    | Tier1 / Tier2 / Tier3              |
+| 12 | Planned_Volume     | Forecasted / planned workload      |
+| 13 | Offered_Volume     | Actual workload offered to system  |
+| 14 | Handled_Volume     | Actually handled / answered volume |
+
 
 ---
 
@@ -240,14 +241,14 @@ The following columns are **not part of the base dataset** and are added later v
 powerbi
 
 csharp
-Copy code
+
 
 Current focus is strictly on:
 
 01_data_synthesis
 
-yaml
-Copy code
+
+
 
 ---
 
@@ -266,8 +267,8 @@ Output file:
 
 finaldataset.csv
 
-yaml
-Copy code
+
+
 
 ---
 
